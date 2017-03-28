@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA36A45E1E8A1ACB005151E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36A45D1E8A1ACB005151E6 /* AppDelegate.swift */; };
+		CA36A4601E8A1ACB005151E6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA36A45F1E8A1ACB005151E6 /* GameScene.sks */; };
+		CA36A4621E8A1ACB005151E6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA36A4611E8A1ACB005151E6 /* Actions.sks */; };
+		CA36A4641E8A1ACB005151E6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36A4631E8A1ACB005151E6 /* GameScene.swift */; };
+		CA36A4661E8A1ACB005151E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36A4651E8A1ACB005151E6 /* GameViewController.swift */; };
+		CA36A4691E8A1ACB005151E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA36A4671E8A1ACB005151E6 /* Main.storyboard */; };
+		CA36A46B1E8A1ACB005151E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA36A46A1E8A1ACB005151E6 /* Assets.xcassets */; };
+		CA36A46E1E8A1ACB005151E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA36A46C1E8A1ACB005151E6 /* LaunchScreen.storyboard */; };
+		CA36A4791E8A1ACB005151E6 /* cactusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36A4781E8A1ACB005151E6 /* cactusTests.swift */; };
+		CA36A4841E8A1ACB005151E6 /* cactusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA36A4831E8A1ACB005151E6 /* cactusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA36A4751E8A1ACB005151E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA36A4521E8A1ACB005151E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA36A4591E8A1ACB005151E6;
+			remoteInfo = cactus;
+		};
+		CA36A4801E8A1ACB005151E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA36A4521E8A1ACB005151E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA36A4591E8A1ACB005151E6;
+			remoteInfo = cactus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA36A45A1E8A1ACB005151E6 /* cactus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cactus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA36A45D1E8A1ACB005151E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA36A45F1E8A1ACB005151E6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CA36A4611E8A1ACB005151E6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CA36A4631E8A1ACB005151E6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CA36A4651E8A1ACB005151E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CA36A4681E8A1ACB005151E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA36A46A1E8A1ACB005151E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA36A46D1E8A1ACB005151E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA36A46F1E8A1ACB005151E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA36A4741E8A1ACB005151E6 /* cactusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cactusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA36A4781E8A1ACB005151E6 /* cactusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cactusTests.swift; sourceTree = "<group>"; };
+		CA36A47A1E8A1ACB005151E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA36A47F1E8A1ACB005151E6 /* cactusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cactusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA36A4831E8A1ACB005151E6 /* cactusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cactusUITests.swift; sourceTree = "<group>"; };
+		CA36A4851E8A1ACB005151E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA36A4571E8A1ACB005151E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36A4711E8A1ACB005151E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36A47C1E8A1ACB005151E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA36A4511E8A1ACB005151E6 = {
+			isa = PBXGroup;
+			children = (
+				CA36A45C1E8A1ACB005151E6 /* cactus */,
+				CA36A4771E8A1ACB005151E6 /* cactusTests */,
+				CA36A4821E8A1ACB005151E6 /* cactusUITests */,
+				CA36A45B1E8A1ACB005151E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA36A45B1E8A1ACB005151E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA36A45A1E8A1ACB005151E6 /* cactus.app */,
+				CA36A4741E8A1ACB005151E6 /* cactusTests.xctest */,
+				CA36A47F1E8A1ACB005151E6 /* cactusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA36A45C1E8A1ACB005151E6 /* cactus */ = {
+			isa = PBXGroup;
+			children = (
+				CA36A45D1E8A1ACB005151E6 /* AppDelegate.swift */,
+				CA36A45F1E8A1ACB005151E6 /* GameScene.sks */,
+				CA36A4611E8A1ACB005151E6 /* Actions.sks */,
+				CA36A4631E8A1ACB005151E6 /* GameScene.swift */,
+				CA36A4651E8A1ACB005151E6 /* GameViewController.swift */,
+				CA36A4671E8A1ACB005151E6 /* Main.storyboard */,
+				CA36A46A1E8A1ACB005151E6 /* Assets.xcassets */,
+				CA36A46C1E8A1ACB005151E6 /* LaunchScreen.storyboard */,
+				CA36A46F1E8A1ACB005151E6 /* Info.plist */,
+			);
+			path = cactus;
+			sourceTree = "<group>";
+		};
+		CA36A4771E8A1ACB005151E6 /* cactusTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA36A4781E8A1ACB005151E6 /* cactusTests.swift */,
+				CA36A47A1E8A1ACB005151E6 /* Info.plist */,
+			);
+			path = cactusTests;
+			sourceTree = "<group>";
+		};
+		CA36A4821E8A1ACB005151E6 /* cactusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA36A4831E8A1ACB005151E6 /* cactusUITests.swift */,
+				CA36A4851E8A1ACB005151E6 /* Info.plist */,
+			);
+			path = cactusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA36A4591E8A1ACB005151E6 /* cactus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA36A4881E8A1ACB005151E6 /* Build configuration list for PBXNativeTarget "cactus" */;
+			buildPhases = (
+				CA36A4561E8A1ACB005151E6 /* Sources */,
+				CA36A4571E8A1ACB005151E6 /* Frameworks */,
+				CA36A4581E8A1ACB005151E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cactus;
+			productName = cactus;
+			productReference = CA36A45A1E8A1ACB005151E6 /* cactus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA36A4731E8A1ACB005151E6 /* cactusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA36A48B1E8A1ACB005151E6 /* Build configuration list for PBXNativeTarget "cactusTests" */;
+			buildPhases = (
+				CA36A4701E8A1ACB005151E6 /* Sources */,
+				CA36A4711E8A1ACB005151E6 /* Frameworks */,
+				CA36A4721E8A1ACB005151E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA36A4761E8A1ACB005151E6 /* PBXTargetDependency */,
+			);
+			name = cactusTests;
+			productName = cactusTests;
+			productReference = CA36A4741E8A1ACB005151E6 /* cactusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA36A47E1E8A1ACB005151E6 /* cactusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA36A48E1E8A1ACB005151E6 /* Build configuration list for PBXNativeTarget "cactusUITests" */;
+			buildPhases = (
+				CA36A47B1E8A1ACB005151E6 /* Sources */,
+				CA36A47C1E8A1ACB005151E6 /* Frameworks */,
+				CA36A47D1E8A1ACB005151E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA36A4811E8A1ACB005151E6 /* PBXTargetDependency */,
+			);
+			name = cactusUITests;
+			productName = cactusUITests;
+			productReference = CA36A47F1E8A1ACB005151E6 /* cactusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA36A4521E8A1ACB005151E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Brandon;
+				TargetAttributes = {
+					CA36A4591E8A1ACB005151E6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					CA36A4731E8A1ACB005151E6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA36A4591E8A1ACB005151E6;
+					};
+					CA36A47E1E8A1ACB005151E6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA36A4591E8A1ACB005151E6;
+					};
+				};
+			};
+			buildConfigurationList = CA36A4551E8A1ACB005151E6 /* Build configuration list for PBXProject "cactus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA36A4511E8A1ACB005151E6;
+			productRefGroup = CA36A45B1E8A1ACB005151E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA36A4591E8A1ACB005151E6 /* cactus */,
+				CA36A4731E8A1ACB005151E6 /* cactusTests */,
+				CA36A47E1E8A1ACB005151E6 /* cactusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA36A4581E8A1ACB005151E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A4691E8A1ACB005151E6 /* Main.storyboard in Resources */,
+				CA36A4601E8A1ACB005151E6 /* GameScene.sks in Resources */,
+				CA36A46B1E8A1ACB005151E6 /* Assets.xcassets in Resources */,
+				CA36A46E1E8A1ACB005151E6 /* LaunchScreen.storyboard in Resources */,
+				CA36A4621E8A1ACB005151E6 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36A4721E8A1ACB005151E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36A47D1E8A1ACB005151E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA36A4561E8A1ACB005151E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A4641E8A1ACB005151E6 /* GameScene.swift in Sources */,
+				CA36A4661E8A1ACB005151E6 /* GameViewController.swift in Sources */,
+				CA36A45E1E8A1ACB005151E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36A4701E8A1ACB005151E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A4791E8A1ACB005151E6 /* cactusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA36A47B1E8A1ACB005151E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A4841E8A1ACB005151E6 /* cactusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA36A4761E8A1ACB005151E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA36A4591E8A1ACB005151E6 /* cactus */;
+			targetProxy = CA36A4751E8A1ACB005151E6 /* PBXContainerItemProxy */;
+		};
+		CA36A4811E8A1ACB005151E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA36A4591E8A1ACB005151E6 /* cactus */;
+			targetProxy = CA36A4801E8A1ACB005151E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA36A4671E8A1ACB005151E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA36A4681E8A1ACB005151E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA36A46C1E8A1ACB005151E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA36A46D1E8A1ACB005151E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA36A4861E8A1ACB005151E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA36A4871E8A1ACB005151E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA36A4891E8A1ACB005151E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cactus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dondon.cactus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA36A48A1E8A1ACB005151E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cactus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dondon.cactus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CA36A48C1E8A1ACB005151E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cactusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dondon.cactusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cactus.app/cactus";
+			};
+			name = Debug;
+		};
+		CA36A48D1E8A1ACB005151E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cactusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dondon.cactusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cactus.app/cactus";
+			};
+			name = Release;
+		};
+		CA36A48F1E8A1ACB005151E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cactusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dondon.cactusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cactus;
+			};
+			name = Debug;
+		};
+		CA36A4901E8A1ACB005151E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cactusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dondon.cactusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cactus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA36A4551E8A1ACB005151E6 /* Build configuration list for PBXProject "cactus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA36A4861E8A1ACB005151E6 /* Debug */,
+				CA36A4871E8A1ACB005151E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA36A4881E8A1ACB005151E6 /* Build configuration list for PBXNativeTarget "cactus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA36A4891E8A1ACB005151E6 /* Debug */,
+				CA36A48A1E8A1ACB005151E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA36A48B1E8A1ACB005151E6 /* Build configuration list for PBXNativeTarget "cactusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA36A48C1E8A1ACB005151E6 /* Debug */,
+				CA36A48D1E8A1ACB005151E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA36A48E1E8A1ACB005151E6 /* Build configuration list for PBXNativeTarget "cactusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA36A48F1E8A1ACB005151E6 /* Debug */,
+				CA36A4901E8A1ACB005151E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA36A4521E8A1ACB005151E6 /* Project object */;
+}
